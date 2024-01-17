@@ -16,10 +16,12 @@
     margin-left: 30px;
     margin-top: 20px;
 }
-.dhaka-travel img{
-    width:40px;
+
+.dhaka-travel img {
+    width: 40px;
     height: 50px;
 }
+
 #travel {
     color: #FF5400;
 }
@@ -205,7 +207,7 @@
     line-height: normal;
 }
 
-.why-choose-us-description {
+#why-choose-us-description {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-family: Mulish;
@@ -382,7 +384,7 @@
 footer {
     margin-top: 60px;
     background-color: rgba(19, 19, 24, 0.05);
-    width: 1200px;
+    width: 1300px;
     height: 502px;
     flex-shrink: 0;
 }
@@ -417,4 +419,140 @@ footer {
 .footer-content-row-02 {
     text-align: center;
     padding-top: 100px;
+}
+
+@media screen and (max-width:576px) {
+    .explore {
+        font-size: 30px;
+    }
+
+    .banner-form {
+        padding-left: 65px;
+        padding-bottom: 10px;
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .btn-primary {
+        margin-top: 5px;
+    }
+
+    .popular-tours {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    #our-popular-tours {
+        font-size: 30px;
+    }
+
+    .popular-tours-description {
+        width: 300px;
+    }
+
+    .popular-tours-image img {
+        width: 350px;
+        padding-top: 15px;
+    }
+
+    .row-01 img {
+        width: 330px;
+    }
+
+    .row-02 img {
+        width: 330px;
+    }
+
+    .row-03 img {
+        width: 330px;
+    }
+
+    #why-choose-us {
+        font-size: 20px;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .services-row-01{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .services-row-01-hotels{
+        margin-left: 0px;
+        width: 300px;
+
+    } 
+    .services-row-01-services {
+        margin-left: 0px;
+        width: 300px;
+    }
+    .services-row-02-price{
+        margin-left: 0px;
+    }  
+    .services-row-02{
+        margin-left: 0px;
+        width: 320px;
+    }
+    .newsletter{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .newsletter-coloum-01{
+        width: 260px;
+    }
+    .newsletter-coloum-01-form{
+        width: 250px;
+    }
+    .newsletter-coloum-01-form input {
+        width: 250px;
+    }
+    .newsletter-coloum-01-form>button{
+        width: 250px;
+    }
+    .newsletter-coloum-02{
+        margin-top: 10px;
+        width: 320px;
+    }
+    .newsletter-coloum-02-image{
+        width: 320px;
+    }
+    .newsletter-coloum-02-image > img{
+        width: 320px;
+        height: 250px;
+    }
+    .dhaka-travel-50{
+        width: 180px;
+    height: 90px;
+        left: 120px;
+        bottom: 150px;
+    }
+    .dhaka-travel-50 p{
+        font-size: 15.854px;
+    }
+    
+    .dhaka-travel-50 h3{
+        font-size: 18.138px;
+    }
+    footer{
+        width: 370px;
+        border-radius: 20px;
+        margin-left: 10px;  
+    }
+    .footer-content-row-01 .dhaka-travel{
+        font-size: 20px;
+        
+    } 
+    .footer-content-row-01-icon{
+        justify-content: space-around;
+    }
+    .footer-content-row-01-icon-img {
+        height: 30px;
+        width: 30px;}
+        #why-choose-us-description{
+                padding-left: 5px;
+                padding-right: 5px;
+        }
 }
